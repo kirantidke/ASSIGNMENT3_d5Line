@@ -22,7 +22,11 @@ public class Line {
 		{
 			System.out.println("lenths are equal");
 		}
+		else if(length1 > length2)
+		{
+			System.out.println("length1"+length1+ "is greater than"+length2);
+		}
 		else
-			System.out.println("lengths are not equal");
+			System.out.println("length1"+length1+"is smaller than"+length2);
 	}
 }
